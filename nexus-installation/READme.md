@@ -23,6 +23,8 @@ sudo useradd nexus
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
 sudo su - nexus
 ```
+Assign password to nexus user
+sudo passwd nexus
 
 ### Install Java as a pre-requisit for nexus and other softwares
 
